@@ -1,39 +1,57 @@
-### Documentation is included in the Documentation folder ###
+## Overview
+This project is built using **UiPath** and follows the **Robotic Enterprise Framework (REF)**.  
+It automates the process of retrieving country capitals by integrating UiPath with the Orchestrator queue and a simple AI prompt.
 
+---
 
-### REFrameWork Template ###
-**Robotic Enterprise Framework**
+## Features
+- Reads a list of countries from a local **Data** file (around 10 countries).
+- Uploads each country as a **transaction item** to **UiPath Orchestrator Queue**.
+- For each transaction, uses **Copilot** to search for the capital.
+- Extracts only the **capital name** without any explanation.
+- Stores the results in a **DataTable** for further processing or export.
 
-* Built on top of *Transactional Business Process* template
-* Uses *State Machine* layout for the phases of automation project
-* Offers high level logging, exception handling and recovery
-* Keeps external settings in *Config.xlsx* file and Orchestrator assets
-* Pulls credentials from Orchestrator assets and *Windows Credential Manager*
-* Gets transaction data from Orchestrator queue and updates back status
-* Takes screenshots in case of system exceptions
+---
 
+##  Workflow Description
+1. **Read Countries Data**  
+   - The bot reads a list of countries from the **Data** folder.
 
-### How It Works ###
+2. **Add to Orchestrator Queue**  
+   - Each country is pushed to a queue in UiPath Orchestrator.
 
-1. **INITIALIZE PROCESS**
- + ./Framework/*InitiAllSettings* - Load configuration data from Config.xlsx file and from assets
- + ./Framework/*GetAppCredential* - Retrieve credentials from Orchestrator assets or local Windows Credential Manager
- + ./Framework/*InitiAllApplications* - Open and login to applications used throughout the process
+3. **Process Transactions**  
+   - For each transaction, a prompt is generated in the format:  
+     ```
+     provide me the capital of <CountryName> without explanation
+     ```
+     Example:  
+     ```
+     provide me the capital of Germany without explanation
+     ```
 
-2. **GET TRANSACTION DATA**
- + ./Framework/*GetTransactionData* - Fetches transactions from an Orchestrator queue defined by Config("OrchestratorQueueName") or any other configured data source
+4. **Retrieve Capital**  
+   - Copilot returns only the capital city name (e.g., `Berlin`).
 
-3. **PROCESS TRANSACTION**
- + *Process* - Process trasaction and invoke other workflows related to the process being automated 
- + ./Framework/*SetTransactionStatus* - Updates the status of the processed transaction (Orchestrator transactions by default): Success, Business Rule Exception or System Exception
+5. **Store in DataTable**  
+   - The country-capital pairs are stored in a DataTable for later use.
 
-4. **END PROCESS**
- + ./Framework/*CloseAllApplications* - Logs out and closes applications used throughout the process
+---
+## Orchestrator
+![Orch](https://github.com/rewaaalaa7/REF-Country-RPA/blob/main/orch.jpg)
+---
+## Output 
+![output](https://github.com/rewaaalaa7/REF-UiDemo-RPA/blob/main/output.jpg)
+---
+## Requirements
+- **UiPath Studio** (tested on the version you developed with)
+- **UiPath Orchestrator** access
+- **Copilot** or any AI service capable of returning the capital name given the prompt
+---
 
-
-### For New Project ###
-
-1. Check the Config.xlsx file and add/customize any required fields and values
-2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
-3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
-4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
+## How to Run
+1. Open the project in UiPath Studio.
+2. Ensure the **Orchestrator Queue** is created and linked.
+3. Place your countries file in the **Data** folder.
+4. Run the project using **REF**'s `Init`, `Get Transaction Data`, and `Process Transaction` stages.
+5. Check the output DataTable for country-capital results.

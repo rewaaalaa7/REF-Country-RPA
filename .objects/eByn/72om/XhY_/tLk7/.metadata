@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT uaseabox",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tLk7t6gV_kqd0bS0l-Z6ug",
+  "Reference": "8vSYZ9F9IE2RM-moq6yJDg/tLk7t6gV_kqd0bS0l-Z6ug",
+  "ParentRef": "8vSYZ9F9IE2RM-moq6yJDg/XhY_Lv2-yUCZYCjt6OGX-w",
+  "Created": "2025-08-10T07:25:19.4798596Z",
+  "Updated": "2025-08-10T07:25:19.4798596Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

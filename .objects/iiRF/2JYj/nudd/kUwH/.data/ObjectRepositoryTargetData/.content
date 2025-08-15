@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JUuJDwv-cEGAwY3N-ZlQhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com" CVScreenId="926a4901-d1c9-44ab-b1d8-46fc72cdf107" CvElementArea="646, 561, 967, 72" CvType="InputBox" DesignTimeRectangle="717, 581, 772, 30" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="efdc7444-a85d-4423-93d4-e5cde6847144" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="652, 562, 960, 70" FuzzySelectorArgument="&lt;webctrl type='' parentid='thread-bottom' tag='DIV' class='relative flex w-full flex-auto flex-col' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='window.__oai_logHTML?window.__oai_logHTML():window.__oai_SSR_HTML=window.__oai_SSR_HTML||Date.now();requestAnimationFrame((function(){window.__oai_logTTI?window.__oai_logTTI():window.__oai_SSR_TTI=window.__oai_SSR_TTI||Date.now()}))' /&gt;" Guid="33043470-f405-41b5-bfe9-53eeffb28768" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e42f12a93356e47d2098b8ba29a5cd81.png" xmlns="">0ZOR0mzK1UE-C5kS_Fe0H-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

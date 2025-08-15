@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RwAz7j62Y0i4BoZe_oiOzw" Reference="8vSYZ9F9IE2RM-moq6yJDg/jxfiQZRaikKDjgpGMHPPcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bing.com/search" CVScreenId="7a67b41d-f114-4fe8-96c4-3195d0b831a1" CvType="AnyWordGroup" DesignTimeRectangle="239, 562, 510, 80" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='facttb0 ffmid' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="c364ca31-3716-47a7-9e62-e2e367534d2d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='india capital - Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="214, 417, 810, 420" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl parentid='b_results' tag='LI' type='' class='b_ans b_top b_topborder' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Canada  Capital&amp;#xA;&amp;#xA;Ottawa&amp;#xA;&amp;#xA;Switzerland&amp;#xA;Bern&amp;#xA;United States&amp;#xA;Washington, D.C.&amp;#xA;Australia&amp;#xA;Canberra&amp;#xA;United Kingdom&amp;#xA;London&amp;#xA;Mexico&amp;#xA;Mexico City' /&gt;" Guid="6287e7f8-e8ca-4d8c-ad94-09173700cf69" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18058ba1521e24816ce8c1c7667d5710.png" xmlns="">0CMEg1E4Tok27y-3q-_F5JQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "just provide the capita…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "l9ADX-wdhUu2_22vlmYPUA",
+  "Reference": "8vSYZ9F9IE2RM-moq6yJDg/l9ADX-wdhUu2_22vlmYPUA",
+  "ParentRef": "8vSYZ9F9IE2RM-moq6yJDg/nuddUuqKh0ah0-ddYJ0rCA",
+  "Created": "2025-08-15T15:37:30.0656441Z",
+  "Updated": "2025-08-15T15:37:30.0656441Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

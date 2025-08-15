@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NYGm6h7cvkiuHEJN21KRPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/689f5453-6c74-832e-8618-a2631008b92e" CVScreenId="372347be-3ebb-46fc-a345-183185e64244" CvType="AnyWordGroup" DesignTimeRectangle="652, 362, 960, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="63c06d89-7253-4a70-ba0b-6e25036a3769" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Capital of Germany' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="372347be-3ebb-46fc-a345-183185e64244" CvTextArea="961, 277, 632, 24" CvTextArgument="just provide the capital of the country only without explaning. germany" CvType="Text" DesignTimeRectangle="652, 263, 960, 45" FuzzySelectorArgument="&lt;webctrl type='' parentid='thread' tag='DIV' class='user-message-bubble-color relative max-w-[var(--user-chat-width,70%)] rounded-[18px] px-4 py-1.5 data-[multiline]:py-3' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='just provide the capital of the country only without explaning. germany' /&gt;" Guid="8e93d799-e0b2-4d93-9e4e-15c8a79f2584" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0548b759abb561f6d4f9ce224399b4d.png" xmlns="">0BRLQls8rYEy0lEpbUQ7e3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

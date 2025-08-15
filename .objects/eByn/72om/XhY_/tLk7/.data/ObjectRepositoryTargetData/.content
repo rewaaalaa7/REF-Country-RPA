@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bNYZZJkKEkWhIsrpiK55hQ" Reference="8vSYZ9F9IE2RM-moq6yJDg/tLk7t6gV_kqd0bS0l-Z6ug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bing.com/search" CVScreenId="bb523263-b8f5-4093-a515-0c99741b6989" CvElementArea="582, 732, 772, 66" CvType="InputBox" DesignTimeRectangle="601, 738, 690, 55" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='uaseabox' tag='INPUT' /&gt;" Guid="59fb88c4-0243-426f-b682-c24d704fd346" ScopeSelectorArgument="&lt;html app='msedge.exe' title='google - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="655, 462, 628, 225" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='b_unar_rwdimg' tag='IMG' /&gt;" Guid="67658af2-8a52-4f22-8036-a631d5020b8e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="319f7a8c6803442b5d37e01ffa60b2ab.png" xmlns="">0lx3du8jja0qvndL_FVZhiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

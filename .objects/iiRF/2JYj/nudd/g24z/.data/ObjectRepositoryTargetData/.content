@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="erO_p5HhyE2UGxbiqycjqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copilot.microsoft.com/chats/Y26VSzPMU5iYxmnjjYoNd" CVScreenId="5a25854c-ece0-4a71-a11b-340ba8a882e6" CvType="AnyWordGroup" DesignTimeRectangle="568, 515, 783, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="f6e9a042-c734-4676-9dfd-e6ba90bd9a7b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Microsoft Copilot: Your AI companion' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="568, 558, 783, 40" FuzzySelectorArgument="&lt;webctrl type='' class='pointer-events-none flex gap-2 opacity-0 transition-opacity delay-200 duration-300 ease-in-out pointer-events-auto items-center group-focus-within/ai-message-item:opacity-100 group-hover/ai-message-item:opacity-100 opacity-100' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Edit in a page' /&gt;" Guid="3b612a5c-2772-4940-93f9-4c692cd3ccb5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c329599ebe07ede0b21a8243223faa6d.png" xmlns="">0CiOptbPBb0S_25me3u100A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

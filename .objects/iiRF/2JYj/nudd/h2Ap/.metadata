@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Canberra'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "h2ApyalIlkCpJhuVTGMfrw",
+  "Reference": "8vSYZ9F9IE2RM-moq6yJDg/h2ApyalIlkCpJhuVTGMfrw",
+  "ParentRef": "8vSYZ9F9IE2RM-moq6yJDg/nuddUuqKh0ah0-ddYJ0rCA",
+  "Created": "2025-08-15T15:24:47.0313923Z",
+  "Updated": "2025-08-15T15:24:47.0313923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

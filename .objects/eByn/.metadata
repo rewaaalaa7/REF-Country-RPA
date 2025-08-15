@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge google - Search",
+  "Type": "App",
+  "Id": "eByn5G7_Sk6oDqAQQNNmJQ",
+  "Reference": "8vSYZ9F9IE2RM-moq6yJDg/eByn5G7_Sk6oDqAQQNNmJQ",
+  "Created": "2025-08-07T21:30:47.6214287Z",
+  "Updated": "2025-08-07T21:30:47.6214287Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

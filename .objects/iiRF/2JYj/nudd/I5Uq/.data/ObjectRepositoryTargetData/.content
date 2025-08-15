@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iwqHh39Q30m6XXG91umlUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6898c335-d0d4-8330-939c-9a5ef997d6a3" CVScreenId="e4798c38-0979-4989-afba-552fca433b51" CvType="AnyWordGroup" DesignTimeRectangle="652, 425, 960, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="35a5714d-1430-44dc-b0c9-fe6f57445720" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Canada capital request' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="652, 465, 960, 58" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' parentid='thread' tag='DIV' /&gt;" Guid="6fefa6a2-eb1b-4002-a341-61071728666a" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0cb240be4e4ada2dc49b076595c5eef9.png" xmlns="">0d8HP2FaJJkG5QLacP8OnqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

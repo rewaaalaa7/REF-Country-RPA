@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0yxeNQpWOkqh4jYMlva0Ug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copilot.microsoft.com/chats/Y26VSzPMU5iYxmnjjYoNd" CVScreenId="c11ca24e-d375-4023-9b09-fc9e2125e7a5" CvTextArea="574, 600, 147, 21" CvTextArgument="Message Copilot" CvType="Text" DesignTimeRectangle="575, 595, 788, 30" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='userInput' tag='TEXTAREA' /&gt;" Guid="78248b64-fbae-4670-9608-af0d7c6576a9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Microsoft Copilot: Your AI companion' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="550, 576, 837, 124" FuzzySelectorArgument="&lt;webctrl type='' class='relative max-h-full w-expanded-composer max-w-chat bg-gradient-to-b p-1.5 from-stone-400/10 to-white/35 dark:from-slate-700/35 dark:to-midnight-800/65' parentid='app' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quick response' /&gt;" Guid="b679694e-c1cb-4881-b084-0961367508be" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a4bf236e0bb8b6bd3d97aa75d190845.png" xmlns="">0q6aajcZc50meB7arir5GiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

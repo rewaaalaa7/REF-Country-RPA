@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="s2iv4lIWP0yBl8foAvm3dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copilot.microsoft.com/chats/Y26VSzPMU5iYxmnjjYoNd" DesignTimeRectangle="568, 335, 783, 290" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='app' tag='DIV' /&gt;" Guid="8c8de503-9f7e-4381-bf4e-21a85cec969b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Microsoft Copilot: Your AI companion' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f21a28e516aa9b1956866cad32658e0.png" xmlns="">0tRjLug4d-ki_y_fh6SEabg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">VerifyTypeIntoExecution</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
